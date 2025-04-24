@@ -29,6 +29,7 @@ cd BunScraperAPI
 
 # 2. Crie o arquivo .env dentro da pasta /backend e adicione a chave do ScraperAPI:
 echo "SCRAPER_API_KEY=7e419a434fe90bfbb0c081178f43fd5e" > backend/.env
+# Não se preocupe, essa chave é gerada apenas para testes na plataforma.
 
 # 3. Suba os containers
 docker-compose up --build
